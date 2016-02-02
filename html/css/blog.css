@@ -1,38 +1,77 @@
-#img{
-
- float:center;
+#blog {
+  border-bottom-style: solid; 
+font-family: 'Josefin Sans', sans-serif;
+ font-size:60px;
     margin:auto;
-    height:250px;
-    width: 500px;
-    padding-top:2%;
+    text-align:center;
+  
+    width: 250px;
+    padding-top:3%;
     padding-bottom: 5%;
 }
 
 #body{
-   
+   font-family: 'Josefin Sans', sans-serif;
     float:center;
-    margin:auto;
-    width:500px;
+    margin: auto;
+    width:700px;
 }
 
-#uber{
+#img{
+ 
+    max-width: 650px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+ 
+}
+
+a {
+    color: mediumvioletred;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+
+ text-align:center;
+
     
-    max-width: 300px;
-    float:center;
-    margin:auto;
-    padding: 2%;
 }
 
-h1 {
-font-family: 'Josefin Sans', sans-serif;
-    text-align:center;
+h2 {
+    margin-top:-3%;
+    color:blueviolet;
 }
+
+h3{
+    margin-top: -2%;
+    color:black;
+}
+
+
 p{
-
+    border-bottom-style: solid;
+    border-width: thin;
     padding: 2%;
     text-align: center;
     max-width:500px;
     margin: auto;
+    margin-top:3%;
 float:center;
 font-family: 'Josefin Sans', sans-serif;
 width: 800px;
